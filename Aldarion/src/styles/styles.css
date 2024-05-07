@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
 /*Major styles*/
 html {
     background-image: url(https://images.pexels.com/photos/73873/star-clusters-rosette-nebula-star-galaxies-73873.jpeg?cs=srgb&dl=pexels-pixabay-73873.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 header {
     height: 100%;
     margin: 5% 5% 0;
@@ -15,15 +17,18 @@ header {
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 #Aldarion-headfoot {
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 #header-nav {
     margin-bottom: 2%;
     display: flex;
     justify-content: center;
 }
+
 #header-button {
     border: 1px solid white;
     background-color: black;
@@ -32,9 +37,11 @@ header {
     cursor: pointer;
     padding: 12px;
 }
+
 #aside-main{
     display: flex;
 }
+
 aside {
     margin-left: 5% ;
     background-color: rgb(35, 35, 35);
@@ -43,6 +50,7 @@ aside {
     text-align: justify;
     font-family: 'Cinzel', serif;
 }
+
 main {
     height: 100%;
     margin: 0 5% 0 0;
@@ -52,6 +60,7 @@ main {
     text-align: justify;
     font-family: 'Roboto Slab', serif;
 }
+
 footer {
     position: relative;
     margin: 0 5%;
@@ -61,6 +70,7 @@ footer {
     text-align: justify;
     font-family: 'Roboto Slab', serif;
 }
+
 #back-button {
     position: absolute;
     bottom: 30%;
@@ -75,9 +85,11 @@ footer {
     border-radius: 5px;
     transition: transform 0.5s ease-out;
 }
+
 #back-button:hover {
     transform: scale(0.95);
 }
+
 #contato {
     position: absolute;
     bottom: 30%;
@@ -91,38 +103,49 @@ footer {
     padding: 15px;
     border-radius: 5px;
 }
+
 /*--------------------------------------------------------------*/
 /*Minor styles*/
 a:link {
     color: white;
 }
+
 a:visited {
     color: white;
 }
+
 .s16 {
     font-size: 16px;
 }
+
 .s20 {
     font-size: 20px;
 }
+
 .s22 {
     font-size: 22px;
 }
+
 .s24 {
     font-size: 24px;
 }
+
 .s26 {
     font-size: 26px;
 }
+
 .s30 {
     font-size: 30px;
 }
+
 .s34 {
     font-size: 34px;
 }
+
 .s40 {
     font-size: 40px;
 }
+
 /*--------------------------------------------------------------*/
 /*Styles for homepage*/
 #home-main {
@@ -134,26 +157,31 @@ a:visited {
     text-align: justify;
     font-family: 'Roboto Slab', serif;
 }
+
 #Aldarion {
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 #title-intro {
     font-family: 'Cinzel', serif;
     margin-top: 2%;
     margin-bottom: 3%;
 }
+
 #title-info {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin: 5% 0;
 }
+
 #info {
     display: flex;
     flex-wrap: wrap;
     gap: 1%;
     justify-content: center;
 }
+
 #religioes {
     background-image: url(https://cdnb.artstation.com/p/assets/images/images/045/547/025/4k/alberto-trujillo-valinor-18-2048.jpg?1642993641);
     background-position: center;
@@ -170,9 +198,11 @@ a:visited {
     height: 240px;
     transition: transform 0.35s ease-out;
 }
+
 #religioes:hover {
     transform: scale(0.97);
 }
+
 #cultos {
     background-image: url(https://cdn.discordapp.com/attachments/1041170896087416861/1055514112555225178/latest.png);
     background-position: center;
@@ -189,9 +219,11 @@ a:visited {
     height: 240px;
     transition: transform 0.35s ease-out;
 }
+
 #cultos:hover {
     transform: scale(0.97);
 }
+
 #criaturas {
     background-image: url(https://cdn.discordapp.com/attachments/1044257602097401926/1044269974434357248/unknown.png);
     background-position: center;
@@ -208,9 +240,11 @@ a:visited {
     height: 240px;
     transition: transform 0.35s ease-out;
 }
+
 #criaturas:hover {
     transform: scale(0.97);
 }
+
 #racas {
     background-image: url(https://cdn.discordapp.com/attachments/1041170896515252254/1041760227281879040/unknown.png);
     background-position: center;
@@ -227,9 +261,11 @@ a:visited {
     height: 240px;
     transition: transform 0.35s ease-out;
 }
+
 #racas:hover {
     transform: scale(0.97);
 }
+
 #mapas {
     background-image: url(https://cdn.discordapp.com/attachments/1041170896515252256/1124688863810551908/sketch-1688213877964.png);
     background-position: right;
@@ -246,9 +282,11 @@ a:visited {
     height: 240px;
     transition: transform 0.35s ease-out;
 }
+
 #mapas:hover {
     transform: scale(0.97);
 }
+
 #personagens {
     background-image: url(https://cdn.discordapp.com/attachments/1023229650580815892/1064909066645807114/wiki-asset_2.png);
     background-size: cover;
@@ -264,19 +302,23 @@ a:visited {
     height: 240px;
     transition: transform 0.35s ease-out;
 }
+
 #personagens:hover {
     transform: scale(0.97);
 }
+
 /*--------------------------------------------------------------*/
 /*Styles for religioes*/
 #Religioes {
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 #Valarismo {
     font-family: 'Cinzel', serif;
     margin: 40px 0 40px;
 }
+
 #image-valarismo {
     display: block;
     margin: 4% auto;
@@ -284,10 +326,12 @@ a:visited {
     border-radius: 4px;
     width: 50%;
 }
+
 #Jorthenismo {
     font-family: 'Cinzel', serif;
     margin-bottom: 40px;
 }
+
 #image-jorthenismo {
     display: block;
     margin: 4% auto;
@@ -295,10 +339,12 @@ a:visited {
     border-radius: 4px;
     width: 30%;
 }
+
 #Hazaranismo {
     font-family: 'Cinzel', serif;
     margin-bottom: 40px;
 }
+
 #image-hazaranismo {
     display: block;
     margin: 4% auto;
@@ -306,16 +352,19 @@ a:visited {
     border-radius: 4px;
     width: 25%;
 }
+
 /*--------------------------------------------------------------*/
 /*Styles for cultos*/
 #Cultos {
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 #Credo {
     font-family: 'Cinzel', serif;
     margin: 40px 0 40px;
 }
+
 #image-credo {
     display: block;
     margin: 4% auto;
@@ -323,10 +372,12 @@ a:visited {
     border-radius: 4px;
     width: 25%;
 }
+
 #Ordem {
     font-family: 'Cinzel', serif;
     margin-bottom: 40px;
 }
+
 #image-ordem {
     display: block;
     margin: 4% auto;
@@ -334,10 +385,12 @@ a:visited {
     border-radius: 4px;
     width: 45%;
 }
+
 #Templos {
     font-family: 'Cinzel', serif;
     margin-bottom: 40px;
 }
+
 #image-templos {
     display: block;
     margin: 4% auto;
@@ -345,10 +398,12 @@ a:visited {
     border-radius: 4px;
     width: 40%;
 }
+
 #Irmandade {
     font-family: 'Cinzel', serif;
     margin-bottom: 40px;
 }
+
 #image-irmandade {
     display: block;
     margin: 4% auto;
@@ -356,10 +411,12 @@ a:visited {
     border-radius: 4px;
     width: 40%;
 }
+
 #Cavaleiros {
     font-family: 'Cinzel', serif;
     margin-bottom: 40px;
 }
+
 #image-cavaleiros {
     display: block;
     margin: 4% auto;
@@ -367,21 +424,25 @@ a:visited {
     border-radius: 4px;
     width: 45%;
 }
+
 /*--------------------------------------------------------------*/
 /*Styles for raças*/
 #Racas {
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 #Humanoides {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin: 80px 0 0;
 }
+
 #Humanos {
     font-family: 'Cinzel', serif;
     margin: 40px 0 40px;
 }
+
 #image-humanos {
     display: block;
     margin: 4% auto;
@@ -389,10 +450,12 @@ a:visited {
     border-radius: 4px;
     width: 45%;
 }
+
 #Elfos {
     font-family: 'Cinzel', serif;
     margin-bottom: 25px;
 }
+
 #image-elfos {
     display: block;
     margin: 4% auto;
@@ -400,10 +463,12 @@ a:visited {
     border-radius: 4px;
     width: 35%;
 }
+
 #Meio {
     font-family: 'Cinzel', serif;
     margin-bottom: 25px;
 }
+
 #image-meio {
     display: block;
     margin: 4% auto;
@@ -411,10 +476,12 @@ a:visited {
     border-radius: 4px;
     width: 25%;
 }
+
 #Anoes {
     font-family: 'Cinzel', serif;
     margin-bottom: 25px;
 }
+
 #image-anoes {
     display: block;
     margin: 4% auto;
@@ -422,10 +489,12 @@ a:visited {
     border-radius: 4px;
     width: 40%;
 }
+
 #Hobbits {
     font-family: 'Cinzel', serif;
     margin-bottom: 25px;
 }
+
 #image-hobbits {
     display: block;
     margin: 4% auto;
@@ -433,16 +502,19 @@ a:visited {
     border-radius: 4px;
     width: 60%;
 }
+
 #Troca-peles {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin-top: 8%;
     margin-bottom: 5%;
 }
+
 #Vampiros {
     font-family: 'Cinzel', serif;
     margin-bottom: 25px;
 }
+
 #image-vampiros {
     display: block;
     margin: 4% auto;
@@ -450,10 +522,12 @@ a:visited {
     border-radius: 4px;
     width: 25%;
 }
+
 #Beornings {
     font-family: 'Cinzel', serif;
     margin-bottom: 25px;
 }
+
 #image-beornings {
     display: block;
     margin: 4% auto;
@@ -461,16 +535,19 @@ a:visited {
     border-radius: 4px;
     width: 30%;
 }
+
 #Animalescos {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin-top: 8%;
     margin-bottom: 5%;
 }
+
 #Worgen {
     font-family: 'Cinzel', serif;
     margin-bottom: 25px;
 }
+
 #image-worgen {
     display: block;
     margin: 4% auto;
@@ -478,10 +555,12 @@ a:visited {
     border-radius: 4px;
     width: 25%;
 }
+
 #Felideos {
     font-family: 'Cinzel', serif;
     margin-bottom: 25px;
 }
+
 #image-felideos {
     display: block;
     margin: 4% auto;
@@ -489,17 +568,20 @@ a:visited {
     border-radius: 4px;
     width: 45%;
 }
+
 /*--------------------------------------------------------------*/
 /*Styles for mapas*/
 #Mapas {
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 #Vegetacao {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin: 60px 0 20px;
 }
+
 #image-vegetacao {
     display: block;
     margin: 4% auto;
@@ -507,11 +589,13 @@ a:visited {
     border-radius: 4px;
     width: 90%;
 }
+
 #Regioes {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin: 40px 0 40px;
 }
+
 #image-regioes {
     display: block;
     margin: 4% auto;
@@ -519,11 +603,13 @@ a:visited {
     border-radius: 4px;
     width: 90%;
 }
+
 #Culturas {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin: 40px 0 40px;
 }
+
 #image-culturas {
     display: block;
     margin: 4% auto;
@@ -531,11 +617,13 @@ a:visited {
     border-radius: 4px;
     width: 90%;
 }
+
 #Politico {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin: 40px 0 40px;
 }
+
 #image-politico {
     display: block;
     margin: 4% auto;
@@ -543,11 +631,13 @@ a:visited {
     border-radius: 4px;
     width: 90%;
 }
+
 #Cidades {
     text-align: center;
     font-family: 'Cinzel', serif;
     margin: 40px 0 40px;
 }
+
 #image-cidades {
     display: block;
     margin: 4% auto;
@@ -555,16 +645,19 @@ a:visited {
     border-radius: 4px;
     width: 90%;
 }
+
 /*--------------------------------------------------------------*/
 /*Styles for personagens*/
 #Personagens {
     text-align: center;
     font-family: 'Cinzel', serif;
 }
+
 #Hassan {
     font-family: 'Cinzel', serif;
     margin: 40px 0 20px;
 }
+
 #image-hassan {
     display: block;
     margin: 4% auto;
@@ -572,10 +665,12 @@ a:visited {
     border-radius: 4px;
     width: 40%;
 }
+
 #Celegorn {
     font-family: 'Cinzel', serif;
     margin-bottom: 20px;
 }
+
 #image-celegorn {
     display: block;
     margin: 4% auto;
@@ -583,10 +678,12 @@ a:visited {
     border-radius: 4px;
     width: 30%;
 }
+
 #Draegan {
     font-family: 'Cinzel', serif;
     margin-bottom: 20px;
 }
+
 #image-draegan {
     display: block;
     margin: 4% auto;
